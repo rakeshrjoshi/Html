@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      YouTube Clone
+    </title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:wght@400;500&display=swap" rel="stylesheet">
+
+
+    <style>
+      
+
+      p{
+        font-family: Roboto, Arial;
+      }
+
+      .video-preview0{
+        display: inline-block;
+        width: 310px;
+        
+      }
+      img{
+        width: 300px;
+        display: inline-block;
+        
+      }
+      .SearchBox{
+        display:block;
+        margin-bottom: 50px;
+      }
+      /* .row1st{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      } */
+      
+      .img1-text{
+      width: 300px;
+      height: 60px;
+      font-weight: 500;
+      }
+      .video-preview1{
+        width: 310px;
+        vertical-align: top ;
+        display: inline-block;
+        
+      }
+      /* .row-2nd{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      } */
+      .profile_pic1{
+        width: 40px;
+        display: inline-block;
+        vertical-align: top;
+        border-radius: 40px;
+
+      }
+      .profile_pic2{
+        width: 40px;
+        display: inline-block;
+        vertical-align: top;
+        border-radius: 40px;
+      }
+      .channel-name1{
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 12px;
+        color: rgb(96, 96,96);
+      }
+     
+
+       .img2-text{
+        width: 200px;
+        font-family: 'IBM Plex Sans Devanagari', sans-serif;
+        font-weight: 500;
+        line-height: 22px;
+        height: 60px;
+         
+      }
+      .views-1{
+        color: rgb(96, 96,96);
+        height: 10px;
+        margin-top: 5px;
+      }
+
+      
+    </style>
+
+  </head>
+  <body>
+
+
+<!-- break website in different components with the help of div block -->
+<!-- to build horizontal layout we will make our division block to inline -->
+
+<div class="SearchBox">
+  <input type="text" placeholder="Search">
+</div>
+<div class="row1st">
+    <div class="video-preview0">
+      <img src="thumbNails/hq720.webp" alt="maharajImage">
+      <p class="img2-text ">मन मुझे बार-बार गिरा देता है फिर भजन साधन सब छूट जाता है, क्या करूँ ?</p>
+      <img class="profile_pic1" src="thumbNails/unnamed (1).jpg" alt="">
+      <p class="channel-name1">Bhajan Marg</p>
+      <p class="views-1">54K views &#183; 20 hours ago</p>
+    </div>
+
+
+    <div class="video-preview0">
+      <img src="thumbNails/hq720.webp" alt="maharajImage">
+      <p class="img2-text ">मन मुझे बार-बार गिरा देता है फिर भजन साधन सब छूट जाता है, क्या करूँ ?</p>
+      <img class="profile_pic1" src="thumbNails/unnamed (1).jpg" alt="">
+      <p class="channel-name1">Bhajan Marg</p>
+      <p class="views-1">54K views &#183; 20 hours ago</p>
+    </div>
+  </div>
+  
+  <div class="row-2nd">
+    <div class="video-preview1">
+      
+      <img src="thumbNails/hq72.webp" alt="maharajImage">
+      
+      <p class="img1-text ">HTML & CSS Full Course - Beginner to Pro</p>
+      <img class="profile_pic2"  src="thumbNails/unnamed.jpg" alt="">
+
+      <p class="channel-name1">SuperSimpleDev</p>
+      <p class="views-1">3M views &#183; 20 hours ago</p>
+      
+    </div>
+    
+    <div class="video-preview1">
+      
+      <img src="thumbNails/hq72.webp" alt="maharajImage">
+      
+      <p class="img1-text ">HTML & CSS Full Course - Beginner to Pro</p>
+      <img class="profile_pic2"  src="thumbNails/unnamed.jpg" alt="">
+      <p class="channel-name1">SuperSimpleDev</p>
+      <p class="views-1" > 4.8M views &#183; 1 Year ago </p>
+    </div>
+  </div>
+  </body>
+</html>
+
+<!-- 
+  using division this will build a vertical components
+<div>
+
+ </div>
+ <div>
+  
+ </div>
+
+    for division to build a horizontal components we have to switch its display mode to the inline block -->
